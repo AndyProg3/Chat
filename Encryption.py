@@ -69,9 +69,3 @@ class Encryption(object):
     @staticmethod
     def _unpad(s):
         return s[:-ord(s[len(s)-1:])]
-
-
-"""t = Encryption()
-print(t.getA())
-t.makeFinalKey(15)
-print(t.encrypt("hey"))"""
